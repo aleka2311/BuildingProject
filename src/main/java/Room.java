@@ -95,68 +95,7 @@ public class Room {
         return x;
     }
 
-    /*
-    @Override
-    public String toString() {
-        String s1="";
-        return "Освещенность= " + getTotalIllumination() + " лк ("+s1;
 
-        if (getWindowNumber()>0) {
-                System.out.print(getWindowNumber() + " окна по 700 лк");
-                if (getBulbsList().size() != 0) {
-                    System.out.print(" , лампочки ");
-                    for (int j = 0; j < getBulbsList().size(); j++) {
-                        String a = " лк, ";
-                        if (j == getBulbsList().size() - 1) {
-                            a = " лк)";
-                        }
-                        System.out.print(getBulbsList().get(j).getIllumination() + a);
-                    }
-                    System.out.println();
-                } else {
-                    System.out.println(")");
-                }
-            } else {
-                if (getBulbsList().size() != 0) {
-                    System.out.print("Лампочки ");
-                    for (int j = 0; j < getBulbsList().size(); j++) {
-                        String a = " лк, ";
-                        if (j == getBulbsList().size() - 1) {
-                            a = " лк)";
-                        }
-                        System.out.print(getBulbsList().get(j).getIllumination() + a);
-                    }
-                    System.out.println();
-                }
-            }
-
-            System.out.println("Площадь = "+getRoomArea()+" м^2 (занято "+
-                    getTotalFurnitureArea()+" м^2, гарантированно свободно "+
-                    (getRoomArea()- getTotalFurnitureArea())
-                    +" м^2 или "+getFreeAreaPercent()+"% площади)");
-            if (getFurnitureList().size()==0){
-                System.out.println("Мебели нет");
-            }
-            else {
-                System.out.println("Мебель:");
-                for (int k = 0; k < getFurnitureList().size(); k++) {
-                    System.out.println(getFurnitureList().get(k).getDescription() +
-                            " (площадь " + getFurnitureList().get(k).getFurnitureArea() + " м^2)");
-                }
-            }
-return name;
-        }
-          @Override
-    public String toString() {
-        return "Room{" +
-                "area=" + area +
-                ", name='" + name + '\'' +
-                ", windowNumber=" + windowNumber +
-                ", bulbsList=" + bulbsList +
-                ", furnitureList=" + furnitureList +
-                '}';
-    }
-*/
 }
 
 

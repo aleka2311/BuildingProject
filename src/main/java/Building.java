@@ -93,25 +93,7 @@ public class Building {
     }
 
 
-/*
-    @Override
-    public String toString() {
-        return "Здание ";
-    }
 
-    public void describe2() throws IlluminanceTooMuchException, SpaceUsageTooMuchException {
-        System.out.println(this + "1");
-        for (int i = 0; i < building.size(); i++) {
-            System.out.println("Комната " + (i + 1));
-            if ((building.get(i).getTotalIllumination() > 4000) || (building.get(i).getTotalIllumination() < 300)) {
-                throw new IlluminanceTooMuchException();
-            }
-            if (building.get(i).getFreeAreaPercent() < 30) {
-                throw new SpaceUsageTooMuchException();
-            }
-        }
-    }
-    */
 }
 
 
