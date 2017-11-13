@@ -1,8 +1,12 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Runner  {
+   static Logger logger= LogManager.getLogger(Runner.class);
     public static void main(String[] args) {
       Building building1=new Building();
 
-building1.addRoom("Room #1", 30, 2);
+building1.addRoom("Room #1", 30, 0);
       building1.getRoom("Room #1").add(new Bulbs(420));
         building1.getRoom("Room #1").add(new Bulbs(270));
         building1.getRoom("Room #1").add(new Bulbs(300));
@@ -24,13 +28,12 @@ building1.addRoom("Room #1", 30, 2);
             building1.describe();
         }
         catch (IlluminanceTooMuchException e){
-            System.out.println("Освещенность должна быть больше 300 лк или меньше 4000 лк");
+                     logger.error("Освещенность должна быть больше 300 лк или меньше 4000 лк");
         }
         catch (SpaceUsageTooMuchException e){
-            System.out.println( "Комната не должна быть заполнена более чем на 70%");
+            logger.error( "Комната не должна быть заполнена более чем на 70%");
         }
+
+
     }
-
-
-
 }
