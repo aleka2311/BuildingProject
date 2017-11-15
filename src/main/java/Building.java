@@ -10,38 +10,64 @@ import java.util.List;
  * Created by Арай on 28.10.2017.
  */
 public class Building {
+
+
     private String name;
     private List<Room> rooms = new ArrayList<Room>();
     static Logger logger= LogManager.getLogger(Building.class);
 
 
     public Room getRoom(String name) {
-        for (Room aBuilding : rooms) {
-            if (name == aBuilding.getRoomName()) {
-                return aBuilding;
+        for (Room room: rooms) {
+            if (name == room.getRoomName()) {
+                return room;
             }
         }
         return null;
     }
+    public String getName() {
+        return name;
+    }
 
-    public void addRoom(String name, int area, int windowNumber) {
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void addRoom(String name, int area, int windowNumber)  {
+        for (int i = 0; i <rooms.size() ; i++) {
+            if (rooms.get(i).getRoomName()==name){
+                logger.error("Комната с именем "+name+" уже существует");
+                return;
+            }
+        }
         Room room = new Room();
-
         room.setRoomName(name);
         room.setRoomArea(area);
         room.setWindowNumber(windowNumber);
+        logger.debug("Пришли параметры комнаты: имя " + room.getRoomName() + ", площадь " + room.getRoomArea() + "м^2, c " + room.getWindowNumber() + " окнами");
+
         rooms.add(room);
-        logger.debug("Пришли параметры комнаты: имя "+room.getRoomName()+ ", площадь " + room.getRoomArea()+"м^2, c "+room.getWindowNumber()+" окнами");
-      logger.info("Добавилась комната с именем" +room.getRoomName());
-
+       logger.debug("Добавилась комната под названием "+ room.getRoomName());
     }
+     public int getRoomsCount(){
+        return rooms.size();
+         }
+/*
+    public void describe(){
+        System.out.println(this);
+        for (Room room : rooms) {
+            System.out.println(room);
+        }
+    }*/
 
-    public void describe() throws IlluminanceTooMuchException, SpaceUsageTooMuchException {
+    public void describe() throws IlluminanceTooMuchException, SpaceUsageTooMuchException,IlluminanceNotEnoughException {
         System.out.println( "Здание 1");
         for (int i = 0; i < rooms.size(); i++) {
-            System.out.println("Комната " + (i + 1));
-            if ((rooms.get(i).getTotalIllumination() > 4000) || (rooms.get(i).getTotalIllumination() < 300)) {
+            System.out.println(rooms.get(i).getRoomName());
+            if (rooms.get(i).getTotalIllumination() > 4000) {
                 throw new IlluminanceTooMuchException();
+            }
+            if (rooms.get(i).getTotalIllumination() < 300){
+            throw new IlluminanceNotEnoughException();
             }
             System.out.print("Освещенность= " + rooms.get(i).getTotalIllumination() + " лк (");
             if (rooms.get(i).getWindowNumber() > 0) {
@@ -92,8 +118,12 @@ public class Building {
         }
     }
 
-
-
+/*
+   @Override
+   public String toString()  {
+       return getName();
+   }
+   */
 }
 
 

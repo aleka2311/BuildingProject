@@ -95,8 +95,82 @@ public class Room {
         return x;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(name);
+        if (getTotalIllumination() > 4000) {
+            try {
+                throw new IlluminanceTooMuchException();
+            } catch (IlluminanceTooMuchException e) {
+                sb.append("\n Освещенность должна быть меньше 4000 лк");
+            }
+            return String.valueOf(sb);
+        }
+        if (getTotalIllumination() < 300) {
+            try {
+                throw new IlluminanceNotEnoughException();
+            } catch (IlluminanceNotEnoughException e) {
+                sb.append("\n Освещенность должна быть больше 300 лк");
+            }
+            return String.valueOf(sb);
+        }
+        if (getFreeAreaPercent() < 30) {
+            try {
+                throw new SpaceUsageTooMuchException();
+            } catch (SpaceUsageTooMuchException e) {
+                sb.append("\n Комната не должна быть заполнена более чем на 70%");
+            }
+            return String.valueOf(sb);
+        }
+        sb.append('\n' + "Освещенность= " + getTotalIllumination() + " лк (");
+        if (getWindowNumber() > 0) {
+            sb.append(getWindowNumber() + " окна по 700 лк");
+            if (getBulbsList().size() != 0) {
+                    sb.append(" , лампочки ");
+                    for (int i = 0; i < getBulbsList().size(); i++) {
+                        String a = " лк, ";
+                        if (i == getBulbsList().size() - 1) {
+                            a = " лк)";
+                        }
+                        sb.append(getBulbsList().get(i).getIllumination() + a);
+                    }
+                sb.append('\n');
+            } else {
+                sb.append(")");
+            }
+        } else{
+            if (getBulbsList().size() != 0) {
+                sb.append("Лампочки ");
+                for (int i = 0; i < getBulbsList().size(); i++) {
+                    String a = " лк, ";
+                    if (i == getBulbsList().size() - 1) {
+                        a = " лк)";
+                    }
+                    sb.append(getBulbsList().get(i).getIllumination() + a);
+                }
+                sb.append('\n');
+            }
+        }
+sb.append("Площадь = " + getRoomArea() + " м^2 (занято " +
+        getTotalFurnitureArea() + " м^2, гарантированно свободно " +
+        (getRoomArea() - getTotalFurnitureArea())
+        + " м^2 или " + getFreeAreaPercent() + "% площади)");
+        if (getFurnitureList().size()==0){
+            sb.append('\n'+"Мебели нет");
+        } else {
+            sb.append('\n' +"Мебель:");
+            for (int i = 0; i < getFurnitureList().size(); i++) {
+                sb.append('\n'+getFurnitureList().get(i).getDescription() +
+                        " (площадь " + getFurnitureList().get(i).getFurnitureArea() + " м^2)");
+            }
 
-}
+        }
+            return String.valueOf(sb);
+    }
+    }
+
+
 
 
 
