@@ -1,3 +1,5 @@
+package RoomExceptions;
+
 /**
  * Created by Арай on 02.11.2017.
  */

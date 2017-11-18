@@ -1,111 +1,31 @@
-2017-11-15 12:16:03,440 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #1, площадь 30м^2, c 0 окнами
-2017-11-15 12:16:03,443 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #1
-2017-11-15 12:16:03,449 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #2, площадь 25м^2, c 2 окнами
-2017-11-15 12:16:03,450 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #2
-2017-11-15 12:16:03,451 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #3, площадь 20м^2, c 6 окнами
-2017-11-15 12:16:03,451 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #3
-2017-11-15 12:16:03,451 ERROR Building [main] Building.addRoom(Building.java:30) Комната с таким именем уже существует
-2017-11-15 12:16:03,453 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть больше 300 лк или меньше 4000 лк
-2017-11-15 12:17:47,347 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #1, площадь 30м^2, c 0 окнами
-2017-11-15 12:17:47,349 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #1
-2017-11-15 12:17:47,355 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #2, площадь 25м^2, c 2 окнами
-2017-11-15 12:17:47,355 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #2
-2017-11-15 12:17:47,356 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #3, площадь 20м^2, c 6 окнами
-2017-11-15 12:17:47,356 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #3
-2017-11-15 12:17:47,356 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 12:17:47,358 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть больше 300 лк или меньше 4000 лк
-2017-11-15 12:18:16,820 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя r, площадь 5м^2, c 4 окнами
-2017-11-15 12:18:16,823 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием r
-2017-11-15 12:18:16,823 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем r уже существует
-2017-11-15 22:55:44,643 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #1, площадь 30м^2, c 0 окнами
-2017-11-15 22:55:44,645 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #1
-2017-11-15 22:55:44,647 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #2, площадь 25м^2, c 2 окнами
-2017-11-15 22:55:44,647 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #2
-2017-11-15 22:55:44,648 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #3, площадь 20м^2, c 6 окнами
-2017-11-15 22:55:44,649 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #3
-2017-11-15 22:55:44,649 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 22:58:10,756 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #1, площадь 30м^2, c 0 окнами
-2017-11-15 22:58:10,759 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #1
-2017-11-15 22:58:10,761 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #2, площадь 25м^2, c 2 окнами
-2017-11-15 22:58:10,761 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #2
-2017-11-15 22:58:10,765 DEBUG Building [main] Building.addRoom(Building.java:38) Пришли параметры комнаты: имя Room #3, площадь 20м^2, c 6 окнами
-2017-11-15 22:58:10,765 DEBUG Building [main] Building.addRoom(Building.java:41) Добавилась комната под названием Room #3
-2017-11-15 22:58:10,765 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 23:01:58,115 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:01:58,118 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:01:58,120 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:01:58,120 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:01:58,121 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:01:58,121 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:01:58,122 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:06:45,806 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:06:45,809 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:06:45,816 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:06:45,816 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:06:45,817 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:06:45,818 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:06:45,818 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:12:04,089 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:12:04,092 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:12:04,097 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:12:04,098 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:12:04,098 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:12:04,099 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:12:04,099 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:16:16,550 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:16:16,553 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:16:16,555 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:16:16,556 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:16:16,557 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:16:16,557 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:16:16,557 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:20:29,195 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:20:29,197 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:20:29,199 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:20:29,199 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:20:29,200 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:20:29,200 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:20:29,200 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:22:57,801 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:22:57,804 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:22:57,809 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:22:57,810 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:22:57,810 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:22:57,810 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:22:57,811 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:23:19,953 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:23:19,955 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:23:19,957 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:23:19,957 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:23:19,958 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:23:19,958 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:23:19,958 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:23:37,679 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:23:37,682 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:23:37,687 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:23:37,687 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:23:37,688 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:23:37,688 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:23:37,689 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:26:28,673 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:26:28,675 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:26:28,681 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:26:28,681 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:26:28,682 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:26:28,682 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:26:28,682 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:26:53,676 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:26:53,678 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:26:53,680 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:26:53,681 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:26:53,681 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:26:53,681 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:26:53,681 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:30:08,616 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
-2017-11-15 23:30:08,618 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 1
-2017-11-15 23:30:08,621 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
-2017-11-15 23:30:08,621 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 2
-2017-11-15 23:30:08,622 DEBUG Building [main] Building.addRoom(Building.java:46) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
-2017-11-15 23:30:08,622 DEBUG Building [main] Building.addRoom(Building.java:49) Добавилась комната под названием Комната 3
-2017-11-15 23:30:08,622 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:30:08,624 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:34:29,345 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-18 19:34:29,347 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-18 19:34:29,354 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-18 19:34:29,355 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-18 19:34:29,356 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-18 19:34:29,356 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-18 19:34:29,356 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:34:29,357 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:188) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:35:38,102 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-18 19:35:38,104 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-18 19:35:38,106 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-18 19:35:38,106 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-18 19:35:38,107 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-18 19:35:38,107 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-18 19:35:38,107 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:35:38,108 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:36:16,564 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-18 19:36:16,567 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-18 19:36:16,573 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-18 19:36:16,573 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-18 19:36:16,574 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-18 19:36:16,574 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-18 19:36:16,574 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:36:16,575 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:36:50,049 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-18 19:36:50,054 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-18 19:36:50,057 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-18 19:36:50,057 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-18 19:36:50,059 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-18 19:36:50,059 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-18 19:36:50,059 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует

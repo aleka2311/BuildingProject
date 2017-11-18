@@ -1,19 +1,7 @@
-2017-11-15 12:16:03,451 ERROR Building [main] Building.addRoom(Building.java:30) Комната с таким именем уже существует
-2017-11-15 12:16:03,453 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть больше 300 лк или меньше 4000 лк
-2017-11-15 12:17:47,356 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 12:17:47,358 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть больше 300 лк или меньше 4000 лк
-2017-11-15 12:18:16,823 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем r уже существует
-2017-11-15 22:55:44,649 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 22:58:10,765 ERROR Building [main] Building.addRoom(Building.java:30) Комната с именем Room #1 уже существует
-2017-11-15 23:01:58,122 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:06:45,818 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:12:04,099 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:16:16,557 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:20:29,200 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:22:57,811 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:23:19,958 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:23:37,689 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:26:28,682 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:26:53,681 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:30:08,622 ERROR Building [main] Building.addRoom(Building.java:38) Комната с именем Комната 1 уже существует
-2017-11-15 23:30:08,624 ERROR Runner [main] Runner.main(Runner.java:33) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:34:29,356 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:34:29,357 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:188) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:35:38,107 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:35:38,108 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:36:16,574 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:36:16,575 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-18 19:36:50,059 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует

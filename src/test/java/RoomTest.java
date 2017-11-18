@@ -1,3 +1,7 @@
+import Entity.Bed;
+import Entity.Bulbs;
+import Entity.Cupboard;
+import Entity.Room;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -6,6 +10,7 @@ public class RoomTest {
     public void getTotalFurnitureAreaTest(){
         Room room=new Room();
         Bed bed=new Bed("Bed", 6);
+        room.add(bed);
         room.add(bed);
         int before=room.getTotalFurnitureArea();
         Cupboard cupboard=new Cupboard("Cupboard", 3);
