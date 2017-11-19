@@ -29,3 +29,60 @@
 2017-11-18 19:36:50,059 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
 2017-11-18 19:36:50,059 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
 2017-11-18 19:36:50,059 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:40:07,586 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 13:52:54,165 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 13:52:54,168 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 13:52:54,190 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 13:52:54,190 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 13:52:54,191 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 13:52:54,191 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 13:52:54,191 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 13:52:54,193 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 13:55:53,752 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 13:55:53,755 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 13:55:53,757 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 13:55:53,757 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 13:55:53,758 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 13:55:53,758 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 13:55:53,758 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 13:55:53,759 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:09:52,198 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 14:09:52,200 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 14:09:52,207 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 14:09:52,207 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 14:09:52,208 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 14:09:52,208 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 14:09:52,208 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:09:52,209 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:10:19,617 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 14:10:19,620 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 14:10:19,623 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 14:10:19,623 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 14:10:19,624 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 14:10:19,624 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 14:10:19,624 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:10:19,625 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:50:30,177 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 14:50:30,181 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 14:50:30,184 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 14:50:30,184 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 14:50:30,185 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 14:50:30,185 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 14:50:30,185 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:50:30,186 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:51:53,199 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 14:51:53,201 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 14:51:53,203 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 14:51:53,203 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 14:51:53,204 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 14:51:53,204 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 14:51:53,204 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:51:53,205 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:53:17,622 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 1, площадь 30м^2, c 0 окнами
+2017-11-19 14:53:17,624 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 1
+2017-11-19 14:53:17,626 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 2, площадь 25м^2, c 2 окнами
+2017-11-19 14:53:17,626 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 2
+2017-11-19 14:53:17,627 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:52) Пришли параметры комнаты: имя Комната 3, площадь 20м^2, c 6 окнами
+2017-11-19 14:53:17,627 DEBUG Entity.Building [main] Entity.Building.addRoom(Building.java:55) Добавилась комната под названием Комната 3
+2017-11-19 14:53:17,627 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:53:17,628 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:129) Освещенность должна быть меньше 4000 лк

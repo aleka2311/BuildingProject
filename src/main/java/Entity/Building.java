@@ -65,18 +65,6 @@ public class Building {
             System.out.println(room);
         }
     }
-/*
-    public void describe()  {
-        System.out.println("Здание 1");
-        for (int i = 0; i < rooms.size(); i++) {
-            System.out.println(rooms.get(i).getRoomName());
-          rooms.get(i).checkAndThrowRoomExceptions();
-         rooms.get(i).getIlluminationInformation();
-         rooms.get(i).getFurnitureInformation();
-        }
-    }
-*/
-
     @Override
     public String toString() {
         return getName();

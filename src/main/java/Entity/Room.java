@@ -120,53 +120,6 @@ public class Room {
         return x;
     }
 
-    public void getIlluminationInformation() {
-        System.out.print("Освещенность= " + getTotalIllumination() + " лк (");
-        if (getWindowNumber() > 0) {
-            System.out.print(getWindowNumber() + " окна по 700 лк");
-            if (getBulbsList().size() != 0) {
-                System.out.print(" , лампочки ");
-                for (int j = 0; j < getBulbsList().size(); j++) {
-                    String a = " лк, ";
-                    if (j == getBulbsList().size() - 1) {
-                        a = " лк)";
-                    }
-                    System.out.print(getBulbsList().get(j).getIllumination() + a);
-                }
-                System.out.println();
-            } else {
-                System.out.println(")");
-            }
-        } else {
-            if (getBulbsList().size() != 0) {
-                System.out.print("Лампочки ");
-                for (int j = 0; j < getBulbsList().size(); j++) {
-                    String a = " лк, ";
-                    if (j == getBulbsList().size() - 1) {
-                        a = " лк)";
-                    }
-                    System.out.print(getBulbsList().get(j).getIllumination() + a);
-                }
-                System.out.println();
-            }
-        }
-    }
-
-    public void getFurnitureInformation() {
-        System.out.println("Площадь = " + getRoomArea() + " м^2 (занято " + getTotalFurnitureArea() + " м^2, гарантированно свободно "
-                + (getRoomArea() - getTotalFurnitureArea()) + " м^2 или " + getFreeAreaPercent() + "% площади)");
-        if (getFurnitureList().size() == 0) {
-            System.out.println("Мебели нет");
-        } else {
-            System.out.println("Мебель:");
-            for (int k = 0; k < getFurnitureList().size(); k++) {
-                System.out.println(getFurnitureList().get(k).getDescription() +
-                        " (площадь " + getFurnitureList().get(k).getFurnitureArea() + " м^2)");
-            }
-        }
-
-    }
-
     public void checkAndThrowRoomExceptions() {
         Logger logger = LogManager.getLogger(Room.class);
         if (getTotalIllumination() > 4000) {
@@ -193,37 +146,32 @@ public class Room {
 
     }
 
+    public String bulbsInformation(StringBuilder sb) {
+        for (int i = 0; i < getBulbsList().size(); i++) {
+            String a = " лк, ";
+            if (i == getBulbsList().size() - 1) {
+                a = " лк)";
+            }
+            sb.append(getBulbsList().get(i).getIllumination() + a);
+        }
+        sb.append('\n');
+        return String.valueOf(sb);
+    }
+
     public String getIlluminationInformation(StringBuilder sb) {
         sb.append('\n' + "Освещенность= " + getTotalIllumination() + " лк (");
         if (getWindowNumber() > 0) {
             sb.append(getWindowNumber() + " окна по 700 лк");
             if (getBulbsList().size() != 0) {
                 sb.append(" , лампочки ");
-                for (int i = 0; i < getBulbsList().size(); i++) {
-                    String a = " лк, ";
-                    if (i == getBulbsList().size() - 1) {
-                        a = " лк)";
-                    }
-                    sb.append(getBulbsList().get(i).getIllumination() + a);
-                }
-                sb.append('\n');
+                bulbsInformation(sb);
             } else {
-                sb.append(")");
+                sb.append(") \n");
             }
         } else {
-            if (getBulbsList().size() != 0) {
-                sb.append("Лампочки ");
-                for (int i = 0; i < getBulbsList().size(); i++) {
-                    String a = " лк, ";
-                    if (i == getBulbsList().size() - 1) {
-                        a = " лк)";
-                    }
-                    sb.append(getBulbsList().get(i).getIllumination() + a);
-                }
-
-            }
+            sb.append("Лампочки ");
+            bulbsInformation(sb);
         }
-        sb.append('\n');
         return String.valueOf(sb);
     }
 

@@ -5,3 +5,18 @@
 2017-11-18 19:36:16,574 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
 2017-11-18 19:36:16,575 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
 2017-11-18 19:36:50,059 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-18 19:40:07,586 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 13:52:54,191 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 13:52:54,193 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 13:55:53,758 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 13:55:53,759 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:09:52,208 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:09:52,209 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:10:19,624 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:10:19,625 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:50:30,185 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:50:30,186 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:51:53,204 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:51:53,205 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:176) Освещенность должна быть меньше 4000 лк
+2017-11-19 14:53:17,627 ERROR Entity.Building [main] Entity.Building.addRoom(Building.java:44) Комната с именем Комната 1 уже существует
+2017-11-19 14:53:17,628 ERROR Entity.Room [main] Entity.Room.checkAndThrowRoomExceptions(Room.java:129) Освещенность должна быть меньше 4000 лк
