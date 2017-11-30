@@ -32,5 +32,6 @@ public class Runner {
         building1.addRoom("Комната 3", 20, 6);
         building1.addRoom("Комната 1", 30, 0);
         building1.describe();
+        //this is second commit
     }
 }
