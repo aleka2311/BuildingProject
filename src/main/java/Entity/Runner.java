@@ -33,5 +33,6 @@ public class Runner {
         building1.addRoom("Комната 1", 30, 0);
         building1.describe();
         //this is second commit
+        //this is second commit to develop branch
     }
 }
